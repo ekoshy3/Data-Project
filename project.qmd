@@ -74,14 +74,25 @@ blocks  <- tribble(
 )
 TOs  <- tribble(
   ~Player, ~TOsPerGame,
-  "Steph Curry",   0.4,
-  "Kyrie Irving",   0.5,
-  "De'Aaron Fox",   0.4,
-  "Luka Doncic", 0.5,
-  "Trae Young", 0.2,
-  "Jalen Brunson", 0.2,
-  "Ja Morant", 0.6,
-  "Tyrese Maxey", 0.5
+  "Steph Curry",   2.8,
+  "Kyrie Irving",   1.8,
+  "De'Aaron Fox",   2.6,
+  "Luka Doncic", 4,
+  "Trae Young", 4.4,
+  "Jalen Brunson", 2.4,
+  "Ja Morant", 3,
+  "Tyrese Maxey", 1.7
+)
+fgs  <- tribble(
+  ~Player, ~fgpercent,
+  "Steph Curry",   45.0,
+  "Kyrie Irving",   49.7,
+  "De'Aaron Fox",   46.5,
+  "Luka Doncic", 48.7,
+  "Trae Young", 43.0,
+  "Jalen Brunson", 47.9,
+  "Ja Morant", 47.1,
+  "Tyrese Maxey", 45
 )
 ```
 
@@ -118,4 +129,18 @@ geom_col(aes(fill = Player))+
 blocks |> select(Player, BlocksPerGame) |> ggplot(aes(y = Player, x = BlocksPerGame))+
 geom_col(aes(fill = Player))+
   labs(title = "Blocks Per Game of Selected Players", y = "Player", x = "Blocks Per Game", caption = "Ja Morant has the most blocks per game, \n followed by Luka Doncic and Kyrie Irving")
+```
+
+```{r}
+#| echo: false
+TOs |> select(Player, TOsPerGame) |> ggplot(aes(y = Player, x = TOsPerGame))+
+geom_col(aes(fill = Player))+
+  labs(title = "Turnovers Per Game of Selected Players", subtitle = "Lower is better", y = "Player", x = "Turnovers Per Game", caption = "Tyrese Maxey has the least turnovers per game, followed by Kyrie Irving")
+```
+
+```{r}
+#| echo: false
+fgs |> select(Player, fgpercent) |> ggplot(aes(y = Player, x = fgpercent))+
+geom_col(aes(fill = Player))+
+  labs(title = "Field Goal Percentage of Selected Players", subtitle = "Field Goal percentage is the percentage of shots that they shoot that go in", y = "Player", x = "Field goals percentage", caption = "Luka Doncic and Kyrie Irving have the highest Field goal percentage")
 ```
