@@ -1,0 +1,8 @@
+---
+title: "Data Sources and Models"
+---
+## Data and Models
+I got the data from statmuse.com and the CRAN R Package [NBALoveR](https://cran.r-project.org/web/packages/NBAloveR/index.html). I also used the [ggplot2 R Package](https://ggplot2.tidyverse.org) and the [tidyverse R Package](tidyverse.org) to graph my data.
+
+## Functions used
+The functions I used were tribble() and the geom_col() function, which is similar to a bar graph, except you can specify the y value.

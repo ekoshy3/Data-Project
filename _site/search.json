@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "My name is Ethan Koshy and I am a rising sophomore at Cherokee Trail High School."
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "About",
+    "section": "",
+    "text": "My name is Ethan Koshy and I am a rising sophomore at Cherokee Trail High School."
+  },
+  {
+    "objectID": "about.html#about-this-project",
+    "href": "about.html#about-this-project",
+    "title": "About",
+    "section": "About This Project",
+    "text": "About This Project\nThis projects explores which NBA point guard that scores above 25 points is the best. This project was made for David Kane’s Free Data Science Bootcamp."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NBA point guards dataset",
+    "section": "",
+    "text": "This is my website for David Kane’s Data Project in his Free Data Science Bootcamp.\nIn this project, I collected data about all the point guards who scored 25 or more points per game on average, and graphed the data to find out who is best."
+  },
+  {
+    "objectID": "project.html",
+    "href": "project.html",
+    "title": "Project",
+    "section": "",
+    "text": "In this project, the selected players are all the point guards with averages of 25 or more points per game."
+  },
+  {
+    "objectID": "Data.html",
+    "href": "Data.html",
+    "title": "Data Sources and Models",
+    "section": "",
+    "text": "I got the data from statmuse.com and the CRAN R Package NBALoveR. I also used the ggplot2 R Package and the tidyverse R Package to graph my data."
+  },
+  {
+    "objectID": "Data.html#data-and-models",
+    "href": "Data.html#data-and-models",
+    "title": "Data Sources and Models",
+    "section": "",
+    "text": "I got the data from statmuse.com and the CRAN R Package NBALoveR. I also used the ggplot2 R Package and the tidyverse R Package to graph my data."
+  },
+  {
+    "objectID": "Data.html#functions-used",
+    "href": "Data.html#functions-used",
+    "title": "Data Sources and Models",
+    "section": "Functions used",
+    "text": "Functions used\nThe functions I used were tribble() and the geom_col() function, which is similar to a bar graph, except you can specify the y value."
+  }
+]

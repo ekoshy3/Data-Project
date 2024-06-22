@@ -1,0 +1,12 @@
+---
+title: "About"
+---
+
+## About Me
+
+My name is Ethan Koshy and I am a rising sophomore at Cherokee Trail High School.
+
+## About This Project
+
+This projects explores which NBA point guard that scores above 25 points is the best. 
+This project was made for [David Kane's Free Data Science Bootcamp](https://bootcamp.davidkane.info).

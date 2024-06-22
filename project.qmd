@@ -1,0 +1,121 @@
+---
+title: "Project"
+---
+```{r}
+#| label: setup
+#| message: false
+#| warning: false
+#| output: false
+#| echo: false
+library(tidyverse)
+library(ggplot2)
+```
+In this project, the selected players are all the point guards with averages of 25 or more points per game.
+
+```{r}
+#| message: false
+#| echo: false
+points  <- tribble(
+  ~Player, ~PointsPerGame,
+  "Steph Curry",   26.4,
+  "Kyrie Irving",   25.6,
+  "De'Aaron Fox",   26.6,
+  "Luka Doncic", 33.9,
+  "Trae Young", 25.7,
+  "Jalen Brunson", 28.7,
+  "Ja Morant", 25.1,
+  "Tyrese Maxey", 25.9
+)
+rebounds  <- tribble(
+  ~Player, ~ReboundsPerGame,
+  "Steph Curry",   4.5,
+  "Kyrie Irving",   5.0,
+  "De'Aaron Fox",   4.6,
+  "Luka Doncic", 9.2,
+  "Trae Young", 2.8,
+  "Jalen Brunson", 3.6,
+  "Ja Morant", 5.6,
+  "Tyrese Maxey", 3.7
+)
+
+assists  <- tribble(
+  ~Player, ~AssistsPerGame,
+  "Steph Curry",   5.1,
+  "Kyrie Irving",   5.2,
+  "De'Aaron Fox",   4.6,
+  "Luka Doncic", 9.8,
+  "Trae Young", 10.8,
+  "Jalen Brunson", 6.7,
+  "Ja Morant", 8.1,
+  "Tyrese Maxey", 6.2
+)
+steals  <- tribble(
+  ~Player, ~StealsPerGame,
+  "Steph Curry",   0.7,
+  "Kyrie Irving",   1.3,
+  "De'Aaron Fox",   2.0,
+  "Luka Doncic", 1.4,
+  "Trae Young", 1.3,
+  "Jalen Brunson", 0.9,
+  "Ja Morant", 0.8,
+  "Tyrese Maxey", 1.0
+)
+
+blocks  <- tribble(
+  ~Player, ~BlocksPerGame,
+  "Steph Curry",   0.4,
+  "Kyrie Irving",   0.5,
+  "De'Aaron Fox",   0.4,
+  "Luka Doncic", 0.5,
+  "Trae Young", 0.2,
+  "Jalen Brunson", 0.2,
+  "Ja Morant", 0.6,
+  "Tyrese Maxey", 0.5
+)
+TOs  <- tribble(
+  ~Player, ~TOsPerGame,
+  "Steph Curry",   0.4,
+  "Kyrie Irving",   0.5,
+  "De'Aaron Fox",   0.4,
+  "Luka Doncic", 0.5,
+  "Trae Young", 0.2,
+  "Jalen Brunson", 0.2,
+  "Ja Morant", 0.6,
+  "Tyrese Maxey", 0.5
+)
+```
+
+```{r}
+#| echo: false
+points |> select(Player, PointsPerGame) |> ggplot(aes(y = Player, x = PointsPerGame))+
+geom_col(aes(fill = Player))+
+  labs(title = "Points Per Game of Selected Players", y = "Player", x = "Points Per Game", caption = "Luka Doncic has the most points per game, \n followed by Jalen Brunson")
+```
+
+```{r}
+#| echo: false
+rebounds |> select(Player, ReboundsPerGame) |> ggplot(aes(y = Player, x = ReboundsPerGame))+
+geom_col(aes(fill = Player))+
+  labs(title = "Rebounds Per Game of Selected Players", y = "Player", x = "Rebounds Per Game", caption = "Luka Doncic has the most rebounds per game by far, /n followed by Ja Morant")
+```
+
+```{r}
+#| echo: false
+assists |> select(Player, AssistsPerGame) |> ggplot(aes(y = Player, x = AssistsPerGame))+
+geom_col(aes(fill = Player))+
+  labs(title = "Assists Per Game of Selected Players", y = "Player", x = "Assists Per Game", caption = "Trae Young has the most assists per game, \n followed by Luka Doncic")
+```
+
+```{r}
+#| echo: false
+steals |> select(Player, StealsPerGame) |> ggplot(aes(y = Player, x = StealsPerGame))+
+geom_col(aes(fill = Player))+
+  labs(title = "Steals Per Game of Selected Players", y = "Player", x = "Steals Per Game", caption = "De'Aaron Fox has the most steals per game by far, \n followed by Luka Doncic")
+```
+
+```{r}
+#| echo: false
+blocks |> select(Player, BlocksPerGame) |> ggplot(aes(y = Player, x = BlocksPerGame))+
+geom_col(aes(fill = Player))+
+  labs(title = "Blocks Per Game of Selected Players", y = "Player", x = "Blocks Per Game", caption = "Ja Morant has the most blocks per game, \n followed by Luka Doncic and Kyrie Irving")
+```

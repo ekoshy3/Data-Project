@@ -1,0 +1,9 @@
+---
+title: "NBA point guards dataset"
+author: "Ethan Koshy"
+---
+
+
+This is my website for David Kane's Data Project in his [Free Data Science Bootcamp](https://bootcamp.davidkane.info).
+
+In this project, I collected data about all the point guards who scored 25 or more points per game on average, and graphed the data to find out who is best.
