@@ -1,33 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "My name is Ethan Koshy and I am a rising sophomore at Cherokee Trail High School."
-  },
-  {
-    "objectID": "about.html#about-me",
-    "href": "about.html#about-me",
-    "title": "About",
-    "section": "",
-    "text": "My name is Ethan Koshy and I am a rising sophomore at Cherokee Trail High School."
-  },
-  {
-    "objectID": "about.html#about-this-project",
-    "href": "about.html#about-this-project",
-    "title": "About",
-    "section": "About This Project",
-    "text": "About This Project\nThis projects explores which NBA point guard that scores above 25 points is the best. This project was made for David Kane’s Free Data Science Bootcamp."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "NBA point guards dataset",
-    "section": "",
-    "text": "This is my website for David Kane’s Data Project in his Free Data Science Bootcamp.\nIn this project, I collected data about all the point guards who scored 25 or more points per game on average, and graphed the data to find out who is best."
-  },
-  {
     "objectID": "project.html",
     "href": "project.html",
     "title": "Project",
@@ -54,5 +26,33 @@
     "title": "Data Sources and Models",
     "section": "Functions used",
     "text": "Functions used\nThe functions I used were tribble() and the geom_col() function, which is similar to a bar graph, except you can specify the y value."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "My name is Ethan Koshy and I am a rising sophomore at Cherokee Trail High School."
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "About",
+    "section": "",
+    "text": "My name is Ethan Koshy and I am a rising sophomore at Cherokee Trail High School."
+  },
+  {
+    "objectID": "about.html#about-this-project",
+    "href": "about.html#about-this-project",
+    "title": "About",
+    "section": "About This Project",
+    "text": "About This Project\nThis projects explores which NBA point guard that scores above 25 points is the best. This project was made for David Kane’s Free Data Science Bootcamp.\nIn this project, I collected data about all the point guards who scored 25 or more points per game on average, and graphed the data to find out who is best."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NBA point guards dataset",
+    "section": "",
+    "text": "There are many good point guards in the NBA, such Luka Doncic, Kyrie Irving, Ja Morant, and Jalen Brunson. I got my data from the NBALoveR package and Statmuse The data was then used to plot the graphs about the players and their stats. Luka Doncic is the best point guard in the NBA."
   }
 ]

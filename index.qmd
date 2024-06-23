@@ -3,7 +3,4 @@ title: "NBA point guards dataset"
 author: "Ethan Koshy"
 ---
 
-
-This is my website for David Kane's Data Project in his [Free Data Science Bootcamp](https://bootcamp.davidkane.info).
-
-In this project, I collected data about all the point guards who scored 25 or more points per game on average, and graphed the data to find out who is best.
+There are many good point guards in the NBA, such Luka Doncic, Kyrie Irving, Ja Morant, and Jalen Brunson. I got my data from the [NBALoveR package](https://cran.r-project.org/web/packages/NBAloveR/index.html) and [Statmuse](statmuse.com) The data was then used to plot the graphs about the players and their stats. Luka Doncic is the best point guard in the NBA.

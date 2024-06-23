@@ -10,3 +10,5 @@ My name is Ethan Koshy and I am a rising sophomore at Cherokee Trail High School
 
 This projects explores which NBA point guard that scores above 25 points is the best. 
 This project was made for [David Kane's Free Data Science Bootcamp](https://bootcamp.davidkane.info).
+
+In this project, I collected data about all the point guards who scored 25 or more points per game on average, and graphed the data to find out who is best.

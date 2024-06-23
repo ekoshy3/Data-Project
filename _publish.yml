@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: cdffbfba-3c9a-49ac-b311-4ab88cd9222a
+      url: 'https://ekoshy3.quarto.pub/data-project'

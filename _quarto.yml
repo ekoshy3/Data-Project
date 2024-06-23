@@ -4,6 +4,7 @@ project:
 website:
   title: "Data Project"
   navbar:
+    position: sticky
     left:
       - href: index.qmd
         text: Home
@@ -13,7 +14,7 @@ website:
 
 format:
   html:
-    theme: vapor
+    theme: zephyr
     css: styles.css
     toc: true
 
