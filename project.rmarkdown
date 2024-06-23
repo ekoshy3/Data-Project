@@ -1,6 +1,7 @@
 ---
 title: "Project"
 ---
+
 ```{r}
 #| label: setup
 #| message: false
@@ -10,7 +11,9 @@ title: "Project"
 library(tidyverse)
 library(ggplot2)
 ```
+
 In this project, the selected players are all the point guards with averages of 25 or more points per game.
+
 
 ```{r}
 #| message: false
@@ -162,5 +165,6 @@ winpercentdiff |> select(Player, WinPercentageDiff) |> ggplot(aes(y = Player, x 
 geom_col(aes(fill = Player))+
   labs(title = "Win Percentage Difference of Selected Players", subtitle = "Win Percentage Difference is the percentage of games that they win more with a player available vs unavailable", y = "Player", x = "Winning Percentage Difference", caption = "Jalen Brunson had the highest winning percentage difference, \n followed by Ja Morant")
 ```
+
 
 In conclusion, Luka Doncic is the best point guard in NBA, followed by Kyrie Irving, Ja Morant, and Jalen Brunson(not in any specific order).
