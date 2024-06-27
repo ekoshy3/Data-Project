@@ -13,6 +13,7 @@ library(tidyverse)
 library(ggplot2)
 library(gganimate)
 library(patchwork)
+library(ggthemr)
 ```
 In this project, the selected players are all the point guards with averages of 25 or more points per game.
 
@@ -114,6 +115,7 @@ winpercentdiff  <- tribble(
 ```{r}
 #| echo: false
 # Create individual plots
+ggthemr("flat")
 points_plot <- ggplot(points, aes(y = Player, x = PointsPerGame, fill = Player)) +
   geom_col() +
   labs(
