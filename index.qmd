@@ -1,6 +1,6 @@
 ---
-title: "NBA point guards dataset"
+title: "NBA Point guards dataset"
 author: "Ethan Koshy"
 ---
 
-There are many good point guards in the NBA, such Luka Doncic, Kyrie Irving, Ja Morant, and Jalen Brunson. I got my data from the [NBALoveR package](https://cran.r-project.org/web/packages/NBAloveR/index.html) and [Statmuse](statmuse.com) The data was then used to plot the graphs about the players and their stats. Luka Doncic is the best point guard in the NBA.
+There are many good point guards in the NBA, such Luka Doncic, Kyrie Irving, Ja Morant, and Jalen Brunson. I got my data from the [NBALoveR package](https://cran.r-project.org/web/packages/NBAloveR/index.html) and [Statmuse](statmuse.com). The data was then used to plot the graphs about the players and their stats. This data project seeks to explain which NBA point guard is the best.

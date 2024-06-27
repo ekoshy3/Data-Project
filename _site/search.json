@@ -4,7 +4,7 @@
     "href": "project.html",
     "title": "Project",
     "section": "",
-    "text": "In this project, the selected players are all the point guards with averages of 25 or more points per game.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIn conclusion, Luka Doncic is the best point guard in NBA, followed by Kyrie Irving, Ja Morant, and Jalen Brunson(not in any specific order)."
+    "text": "In this project, the selected players are all the point guards with averages of 25 or more points per game.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIn conclusion, Luka Doncic is the best point guard in NBA this season, followed by Kyrie Irving, Ja Morant, and Jalen Brunson(not in any specific order). I figured this out by looking at the graphs, and these players were consistently at the top."
   },
   {
     "objectID": "Data.html",
@@ -32,27 +32,27 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "My name is Ethan Koshy and I am a rising sophomore at Cherokee Trail High School."
+    "text": "My name is Ethan Koshy and I am a rising sophomore at Cherokee Trail High School. You can contact me about this project at ethan.koshy@gmail.com."
   },
   {
     "objectID": "about.html#about-me",
     "href": "about.html#about-me",
     "title": "About",
     "section": "",
-    "text": "My name is Ethan Koshy and I am a rising sophomore at Cherokee Trail High School."
+    "text": "My name is Ethan Koshy and I am a rising sophomore at Cherokee Trail High School. You can contact me about this project at ethan.koshy@gmail.com."
   },
   {
     "objectID": "about.html#about-this-project",
     "href": "about.html#about-this-project",
     "title": "About",
     "section": "About This Project",
-    "text": "About This Project\nThis projects explores which NBA point guard that scores above 25 points is the best. This project was made for David Kane’s Free Data Science Bootcamp.\nIn this project, I collected data about all the point guards who scored 25 or more points per game on average, and graphed the data to find out who is best."
+    "text": "About This Project\nThis projects explores which NBA point guard that scores above 25 points is the best. This project was made for David Kane’s Free Data Science Bootcamp. My github repo for this project is Data Project - Github.\nIn this project, I collected data about all the point guards who scored 25 or more points per game on average, and graphed the data to find out who is best."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "NBA point guards dataset",
+    "title": "NBA Point guards dataset",
     "section": "",
-    "text": "There are many good point guards in the NBA, such Luka Doncic, Kyrie Irving, Ja Morant, and Jalen Brunson. I got my data from the NBALoveR package and Statmuse The data was then used to plot the graphs about the players and their stats. Luka Doncic is the best point guard in the NBA."
+    "text": "There are many good point guards in the NBA, such Luka Doncic, Kyrie Irving, Ja Morant, and Jalen Brunson. I got my data from the NBALoveR package and Statmuse. The data was then used to plot the graphs about the players and their stats. This data project seeks to explain which NBA point guard is the best."
   }
 ]
