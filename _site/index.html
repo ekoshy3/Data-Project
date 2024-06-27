@@ -147,7 +147,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>There are many good point guards in the NBA, such Luka Doncic, Kyrie Irving, Ja Morant, and Jalen Brunson. I got my data from the <a href="https://cran.r-project.org/web/packages/NBAloveR/index.html">NBALoveR package</a> and <a href="statmuse.com">Statmuse</a>. The data was then used to plot the graphs about the players and their stats. This data project seeks to explain which NBA point guard is the best.</p>
+<p>There are many good point guards in the NBA, such as Luka Doncic, Kyrie Irving, Ja Morant, and Jalen Brunson. I got my data from the <a href="https://cran.r-project.org/web/packages/NBAloveR/index.html">NBALoveR package</a> and <a href="statmuse.com">Statmuse</a>. The data was then used to plot the graphs about the players and their stats. This data project seeks to explain which NBA point guard is the best.</p>
 
 
 
@@ -233,7 +233,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/ekoshy3\.quarto\.pub\/data-project");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

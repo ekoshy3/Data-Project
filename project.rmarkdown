@@ -3,6 +3,7 @@ title: "Project"
 execute: 
   warning: false
 ---
+
 ```{r}
 #| label: setup
 #| message: false
@@ -15,7 +16,9 @@ library(gganimate)
 library(patchwork)
 library(ggthemr)
 ```
+
 In this project, the selected players are all the point guards with averages of 25 or more points per game.
+
 
 ```{r}
 #| message: false
@@ -187,6 +190,7 @@ print(fgs_plot)
 print(winpercentdiff_plot)
 
 ```
+
 
 
 

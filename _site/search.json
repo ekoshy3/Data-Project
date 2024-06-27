@@ -53,6 +53,6 @@
     "href": "index.html",
     "title": "NBA Point guards dataset",
     "section": "",
-    "text": "There are many good point guards in the NBA, such Luka Doncic, Kyrie Irving, Ja Morant, and Jalen Brunson. I got my data from the NBALoveR package and Statmuse. The data was then used to plot the graphs about the players and their stats. This data project seeks to explain which NBA point guard is the best."
+    "text": "There are many good point guards in the NBA, such as Luka Doncic, Kyrie Irving, Ja Morant, and Jalen Brunson. I got my data from the NBALoveR package and Statmuse. The data was then used to plot the graphs about the players and their stats. This data project seeks to explain which NBA point guard is the best."
   }
 ]
